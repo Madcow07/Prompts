@@ -16,3 +16,13 @@ Zapiski naj vsebujejo naslednje razdelke:
 IZHODNA NAVODILA:
 
 1. Vaš izhod oblikujte v jasnem, človeško berljivem Markdownu.
+
+2. Naredi še izhod v JSON schemi. Uporabi ta format:
+
+              {
+                "schema": {
+                    "key": "value",
+                    ... return as many as necessary
+                },
+                "summary": "generate summary here"
+             } 
