@@ -13,11 +13,7 @@ Zapiski naj vsebujejo naslednje razdelke:
 
 4. **Finančne posledice**: Če zaslediš finančne posledice, jih izpostavi tukaj.
 
-5. **Entitete**: Tvoja naloga je izvleči entitete iz danega besedila in jih vrniti VEDNO v strukturirani JSON formatu IN VEDNO med <json></json> oznakami. 
-    Za vsako entiteto navedi naslednje informacije:
-    1. Ime: Ime ali identifikator entitete
-    2. Tip: Kategorija ali razred entitete (npr. Oseba, Organizacija, Lokacija, Dogodek, Koncept)
-    3. Opis: Kratek opis ali kontekst entitete, kot se pojavlja v besedilu
+5. **Entitete**: Tvoja naloga je tu izvleči entitete iz danega besedila.
 
 > ## IZHODNA NAVODILA
 
@@ -36,7 +32,7 @@ Zapiski naj vsebujejo naslednje razdelke:
 }
 </json>
 
-Prepričajte se, da je JSON dobro oblikovan in ne vsebuje napak v sintaksi. Bistveno je, da JSON vrnše v natančnem formatu, kot je prikazano zgoraj. Če je dokument dolg in preobsežen, še vedno poskusite vrniti čim več pomembnih entitet brez napak.
+Prepričajte se, da je JSON dobro oblikovan in ne vsebuje napak v sintaksi. Bistveno je, da JSON vrneš v natančnem formatu, kot je prikazano zgoraj. Če je dokument dolg in preobsežen, še vedno poskusite vrniti čim več pomembnih entitet brez napak.
 
 2. Za ostalo naredi izhod v slednji JSON schemi. Uporabi ta format:
 
@@ -46,6 +42,6 @@ Prepričajte se, da je JSON dobro oblikovan in ne vsebuje napak v sintaksi. Bist
     "key": "value",
     ... vrnite toliko, kolikor je potrebno
   },
-  "po": "V jasno berljivem markdownu naredi povzetek do 500 besed. Povzetek naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###"
+  "summary": "V jasno berljivem markdownu naredi povzetek do 500 besed. Povzetek naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###"
 }
 ```
