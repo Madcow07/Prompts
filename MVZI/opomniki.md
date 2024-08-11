@@ -19,29 +19,29 @@ Zapiski naj vsebujejo naslednje razdelke:
 
 1. Pod razdelkom **Entitete** odgovor vedno vrni v naslednjem JSON formatu in vedno med <json></json> oznakami:
 
-<json>
-{
-  "entities": [
+ <json>
     {
-      "name": "Ime entitete",
-      "type": "Tip entitete",
-      "description": "Kratek opis entitete"
-    },
-    ...
-  ]
-}
-</json>
+      "entities": [
+        {
+          "name": "Entity Name",
+          "type": "Entity Type",
+          "description": "Brief description of the entity"
+        },
+        ...
+      ]
+    }
+    </json>
 
 Prepričajte se, da je JSON dobro oblikovan in ne vsebuje napak v sintaksi. Bistveno je, da JSON vrneš v natančnem formatu, kot je prikazano zgoraj. Če je dokument dolg in preobsežen, še vedno poskusite vrniti čim več pomembnih entitet brez napak.
 
 2. Za ostalo naredi izhod v slednji JSON schemi. Uporabi ta format:
 
-```json
-{
-  "schema": {
-    "key": "value",
-    ... vrnite toliko, kolikor je potrebno
-  },
-  "summary": "V jasno berljivem markdownu naredi povzetek do 500 besed. Povzetek naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###"
-}
-```
+
+              {
+                "schema": {
+                    "key": "value",
+                    ... return as many as necessary
+                },
+                "summary": "V jasno berljivem markdownu naredi povzetek do 500 besed. Povzetek naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###"
+             }
+
