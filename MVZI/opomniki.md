@@ -19,9 +19,9 @@ Zapiski naj vsebujejo naslednje razdelke:
 
 ## IZHODNA NAVODILA
 
-1. Vaš izhod oblikujte v jasnem, človeško berljivem Markdownu. 
+Make an output in JSON schema. Try to add as many elements (for example: key, value) in schema below.  Ensure that the JSON is well-formed and does not contain any syntax errors. It is essential that you return the JSON in the exact format presented below. if the document is long and overwhelming then still do your best in returning as many important entities as you can without making a mistake. The outputed text should be in Slovenian.
 
-2. Naredi še izhod v JSON schemi. Uporabi ta format in skušaj vključiti čim več elementov (key, value) v shemo poleg obstoječih:
+    """:
 
 {
     "schema": {
@@ -38,7 +38,7 @@ Zapiski naj vsebujejo naslednje razdelke:
                 {
                     "podtema": "Ime podteme",
                     "opis": "Kratek opis podteme"
-              }
+                }
                 // Dodajte toliko dodatnih podtem, kot je potrebno
             ]
         },
@@ -111,7 +111,6 @@ Zapiski naj vsebujejo naslednje razdelke:
             }
             // Dodajte toliko dodatnih entitet, kot je potrebno
         ]
-    }
-    "summary": "V jasno berljivem markdownu naredi povzetek do 500 besed, ki naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###. "
-             }
+    },
+    "summary": "V jasno berljivem markdownu naredi povzetek do 500 besed, ki naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###."
 }
