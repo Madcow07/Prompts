@@ -21,14 +21,95 @@ Zapiski naj vsebujejo naslednje razdelke:
 
 1. Vaš izhod oblikujte v jasnem, človeško berljivem Markdownu. 
 
-2. Naredi še izhod v JSON schemi. Uporabi ta format:
+2. Naredi še izhod v JSON schemi. Uporabi ta format in skušaj vključiti čim več elementov (key, value) v shemo poleg obstoječih:
 
-              {
-                "schema": {
-                    "key": "value",
-                    "naslov": "value" {
-                    ... return as many as necessary
-                 
+{
+    "schema": {
+        "vir_dokumenta": "URL ali ime datoteke",
+        "avtor": "Avtor dokumenta",
+        "datum_izdaje": "Datum izdaje",
+        "Summary": {
+            "glavna_tema": "Kratek opis glavne teme dokumenta",
+            "podteme": [
+                {
+                    "podtema": "Ime podteme",
+                    "opis": "Kratek opis podteme"
                 },
-                "summary": "V jasno berljivem markdownu naredi povzetek do 500 besed, ki naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###. "
-             } 
+                {
+                    "podtema": "Ime podteme",
+                    "opis": "Kratek opis podteme"
+              }
+                // Dodajte toliko dodatnih podtem, kot je potrebno
+            ]
+        },
+        "ključni_koncepti_in_besede": [
+            {
+                "koncept": "Ime koncepta",
+                "opis": "Opis koncepta"
+            },
+            {
+                "koncept": "Ime koncepta",
+                "opis": "Opis koncepta"
+            }
+            // Dodajte toliko dodatnih konceptov, kot je potrebno
+        ],
+        "pomembne_točke_in_izsledki": [
+            {
+                "izsledek": "Kratek povzetek pomembne točke ali izsledka"
+            },
+            {
+                "izsledek": "Kratek povzetek pomembne točke ali izsledka"
+            }
+            // Dodajte toliko dodatnih izsledkov, kot je potrebno
+        ],
+        "uveljavljeni_zaključki": [
+            {
+                "zaključek": "Kratek povzetek zaključka"
+            },
+            {
+                "zaključek": "Kratek povzetek zaključka"
+            }
+            // Dodajte toliko dodatnih zaključkov, kot je potrebno
+        ],
+        "predlagani_ukrepi_ali_priporočila": [
+            {
+                "ukrep": "Kratek opis predlaganega ukrepa"
+            },
+            {
+                "ukrep": "Kratek opis predlaganega ukrepa"
+            }
+            // Dodajte toliko dodatnih ukrepov, kot je potrebno
+        ],
+        "dodatna_literatura_ali_viri": [
+            {
+                "vir": "Referenca ali povezava na dodatno literaturo"
+            },
+            {
+                "vir": "Referenca ali povezava na dodatno literaturo"
+            }
+            // Dodajte toliko dodatnih virov, kot je potrebno
+        ],
+        "priloženi_dokumenti_ali_povezave": [
+            {
+                "povezava": "URL ali ime priloženega dokumenta"
+            },
+            {
+                "povezava": "URL ali ime priloženega dokumenta"
+            }
+            // Dodajte toliko dodatnih povezav, kot je potrebno
+        ],
+        "entitete": [
+            {
+                "ime": "Ime entitete",
+                "tip": "Tip entitete",
+                "opis": "Kratek opis entitete"
+            },
+            {
+                "ime": "Ime entitete",
+                "tip": "Tip entitete",
+                "opis": "Kratek opis entitete"
+            }
+            // Dodajte toliko dodatnih entitet, kot je potrebno
+        ]
+    }
+}
