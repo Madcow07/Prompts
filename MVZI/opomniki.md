@@ -28,7 +28,7 @@ Zapiski naj vsebujejo naslednje razdelke:
         "vir_dokumenta": "URL ali ime datoteke",
         "avtor": "Avtor dokumenta",
         "datum_izdaje": "Datum izdaje",
-        "Summary": {
+        "Povzetek": {
             "glavna_tema": "Kratek opis glavne teme dokumenta",
             "podteme": [
                 {
@@ -112,4 +112,6 @@ Zapiski naj vsebujejo naslednje razdelke:
             // Dodajte toliko dodatnih entitet, kot je potrebno
         ]
     }
+    "summary": "V jasno berljivem markdownu naredi povzetek do 500 besed, ki naj bo strukturiran sledeče: 1. Povzetek vladnega sklepa, 2. Širši povzetek vladnega dokumenta, 3. Relevanten del, ki spada pod pristojnost ministrstva (če sploh), 4. Finančne posledice. Razdelki naj imajo heading 3 format oziroma ###. "
+             }
 }
