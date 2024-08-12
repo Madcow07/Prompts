@@ -21,7 +21,7 @@ Zapiski naj vsebujejo naslednje razdelke:
 
 Make an output in JSON schema. Try to add as many elements (for example: key, value) in schema below.  Ensure that the JSON is well-formed and does not contain any syntax errors. It is essential that you return the JSON in the exact format presented below. if the document is long and overwhelming then still do your best in returning as many important entities as you can without making a mistake. The outputed text should be in Slovenian.
 
-    """:
+
 
 {
     "schema": {
