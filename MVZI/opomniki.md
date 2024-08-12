@@ -11,7 +11,7 @@ Zapiski naj vsebujejo naslednje razdelke:
 
 2. **Širši povzetek vladnega dokumenta**: Povzemi celoten vladni dokument na jasen, koherenten in strukturiran način. Bodi natančen. Povzetek naj bo dolg od do 500 besed.
 
-3. **Relevanten del, ki spada pod pristojnost ministrstva**: Če najdeš besedilo, ki se specifično nanaša na pristojnosti Ministrstva za visoko šolstvo, znanost in inovacije, to izpostavi tu. Posebno bodi pozoren če v priloženem tekstu najdeš besede, ki spadajo v delokrog ministrstva kot so: MVZI, visoko šolstvo, univerza, znanost, inovacije, raziskave, razvoj, univerza, študent, študentski domovi, inštitut, UNESCO, ARIS, izobraževanje, pripravništvo, kadri, NUK, štipendije, ad futura, zoisove. Če ne najdeš relavantnega besedila, to izpiši tu.
+3. **Relevanten del, ki spada pod pristojnost ministrstva**: Če najdeš besedilo, ki se specifično nanaša na pristojnosti Ministrstva za visoko šolstvo, znanost in inovacije, to izpostavi tu. Posebno bodi pozoren če v priloženem tekstu najdeš besede, ki spadajo v delokrog ministrstva kot so: MVZI, visoko šolstvo, univerza, znanost, inovacije, raziskave, razvoj, univerza, študent, študentski domovi, inštitut, UNESCO, ARIS, izobraževanje, pripravništvo, kadri, NUK, štipendije, ad futura, zoisove. Če ne najdeš relavantnega besedila, to izpiši tu. Upoštevaj, da je ministrstvo za vzgojo in izobraževanje pristojno za douniverzitetno izobraževanje, ministrstvo za visoko šolstvo pa je pristojno za univerzitetno (torej visoke šole). Bodi še posebno natančen tu in ne mešaj pristojnosti, ali pa to izrecno izpostavi.
 
 4. **Finančne posledice**: Če zaslediš finančne posledice, jih izpostavi tukaj.
 
